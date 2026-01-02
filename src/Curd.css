@@ -1,0 +1,71 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background: #f2f2f2;
+}
+
+.btn {
+  padding: 6px 10px;
+  margin: 4px;
+  cursor: pointer;
+  border: none;
+  
+}
+
+.btn.add { background: blue; color: white; justify-content: flex-start;}
+.btn.edit { background: orange; color: white;  }
+.btn.delete { background: red; color: white; }
+.btn.update { background: blue; color: white; }
+.btn.cancel { background: gray; color: white; }
+.btn{ background: blue; color: white; justify-content: flex-start;}
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+   text-align: left;
+}
+
+.modal input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 6px;
+ 
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+
+}
